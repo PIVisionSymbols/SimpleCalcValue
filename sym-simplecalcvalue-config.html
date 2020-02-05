@@ -1,0 +1,20 @@
+
+<ul kendo-panel-bar class="t-side-panel-bgcolor" style="font-size: 14px;"> 
+    <li class="k-state-active">
+        <span class="panel-bar-label-no-wrap">Calculation</span>
+        <div style="margin: 10px 20px 15px 10px;">
+            <div ng-repeat="thesource in config.DataSources">{{thesource.Var}} = {{thesource.Source}}</div>
+            <input type="text" ng-model="config.CalculationText"><br />
+            
+        </div>
+        
+        
+    </li>
+    <li class="k-state-active">
+    <span class="panel-bar-label-no-wrap">Units</span>
+        <div style="margin: 10px 20px 15px 10px;">
+            <input type="text" ng-model="config.UOM"><br />
+            
+        </div>
+    </li>
+</ul>
