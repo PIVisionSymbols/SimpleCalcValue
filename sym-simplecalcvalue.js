@@ -6,7 +6,7 @@
 
 	var definition = { 
 		typeName: "simplecalcvalue",
-		displayName: 'TESTING !! Simple Calc Value',
+		displayName: 'Simple Calc Value',
 		visObjectType: symbolVis,
 		datasourceBehavior: PV.Extensibility.Enums.DatasourceBehaviors.Multiple,
 		getDefaultConfig: function(){ 
